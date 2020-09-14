@@ -1,0 +1,27 @@
+GET api/catalog/issues?date=?       => api/catalog/issues?date=&&title=&&
+GET api/catalog/issues?title        => combined into above
+GET api/catalog/newrelease          => seperate service
+GET api/catalog/newissues/:titleId  => seperate service
+
+Get api/user/collection
+GET api/user/collection/location/:locationId/box/:boxId
+GEt api/user/purchases
+POST api/user/purchases
+POST api/user/purchases/:purchaseId
+POST api/user/purchase/:id/?issueId
+GET api/user/collectiontitles
+GET api/user/collectionbytitle
+POST api/user/locations
+POST api/user/locaitons/:locationId
+POST api/user/locations/:locaitonId/Boxes
+POST api/user/locaitons/:locationId/boxes/:boxId
+POST api/user/movebook/:bookId/?newPosition
+POST api/user/locations/:locationId/boxes/:boxid/books/:bookId
+
+
+api/user
+api/collection/
+api/collection/location
+api/colleciton/box
+api/purchases/
+api/catalog
